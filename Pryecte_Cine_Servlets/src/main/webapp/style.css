@@ -1,0 +1,224 @@
+@charset "ISO-8859-1";
+
+header{
+	display: flex;
+    justify-content: center;
+    background-color: #594267;
+	color: white; /* Texto blanco */
+    text-align: center;
+    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+h2{
+	font-size: 25px;
+	background-color: #ff9c08;
+	color: black;
+	Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+	padding: 10px 10px;
+	margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3{
+	font-size: 25px;
+	Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+h5{
+	font-size: 25px;
+	color: red;
+	Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.txtSelect{
+	font-size: 30px;
+	background-color: #8ebe94;
+	padding: 5px 5px;
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+p{
+	font-size: 20px;
+	Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td{
+	width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%; /* Fa que el div tingui forma de cercle */
+    background-color: green; /* Pots canviar aquest color al teu gust */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.verde{
+	background-color: green;
+}
+.rojo{
+	background-color: #c9031a;
+}
+.blau{
+	background-color: #2590e1;
+}
+.green{
+	background-color: #70e933;
+}
+.red{
+	background-color: #ee664c;
+}
+
+.formularioEntrades{
+	display: flex;
+    align-items: center;
+}
+
+.formularioEntrades select {
+    margin-right: 10px; /* Espacio entre los selects */
+    font-weight: bold;
+	font-size: 14px;
+	height: 30px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group select {
+    margin-right: 10px;
+}
+
+.input-group p {
+    margin: 0 10px;
+}
+
+.txtError{
+	font-size: 30px;
+	background-color: #ee664c;
+	padding: 5px 5px;
+	margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 5px solid #bc0d0b;
+}
+
+.txtCorrecte{
+	font-size: 30px;
+	background-color: #a7f468;
+	padding: 5px 5px;
+	margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 5px solid #199722;
+}
+
+select {
+    width: 100%;
+    font-size: 14px;
+	height: 30px;
+	font-weight: bold;
+}
+
+/* Estilo para la lista */
+ul {
+    list-style-type: none; /* Eliminar las viñetas */
+    padding-left: 0; /* Eliminar el relleno predeterminado */
+}
+
+/* Estilo para los elementos de la lista */
+li {
+	font-size: 18px;
+    margin-bottom: 5px; /* Espacio entre elementos de la lista */
+    padding: 10px; /* Relleno para crear el efecto de línea */
+	font-weight: bold;
+	margin-left: 50px;
+    margin-right: 50px;
+    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+#fead26 {
+    width: 50%;
+    font-size: 14px;
+	height: 30px;
+	font-weight: bold;
+}
+
+.contenedor-entradas {
+    display: flex;
+}
+
+.entrada-cine {
+    width: 300px;
+    background-color: #b3f670;
+    border: 1px solid #7cec3c;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.atributo {
+    margin-bottom: 5px;
+	display: flex;
+    justify-content: space-between;
+}
+
+.etiqueta {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+	Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.valor {
+    color: black;
+	font-size: 18px;
+    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.button{
+	border: none; /* Sin bordes */
+	padding: 8px 18px; /* Espacio interior */
+	font-size: 18px; /* Tamaño de la fuente */
+	border-radius: 10px; /* Hacer el botón más redondo */
+	text-decoration: none; /* Eliminar subrayado */
+	background-color: #c62400;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+.button:hover {
+    background-color: yellow; /* Cambiar el color al pasar el mouse */
+    color: #c62400;
+    border: 3px double #c62400;
+}
+
+.buttonOcult{
+	border: none; /* Sin bordes */
+	padding: 8px 18px; /* Espacio interior */
+	font-size: 18px; /* Tamaño de la fuente */
+	border-radius: 10px; /* Hacer el botón más redondo */
+	text-decoration: none; /* Eliminar subrayado */
+	background-color: #c62400;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+	visibility: hidden;
+}
+
+.buttonOcult:hover {
+    background-color: yellow; /* Cambiar el color al pasar el mouse */
+    color: #c62400;
+    border: 3px double #c62400;
+    visibility: hidden;
+}

@@ -1,6 +1,6 @@
 # 🎬 Box Office of a Cinema
 
-An Android project simulating a cinema ticket sales system developed in Java using Servlets and multi-threading.  
+An project simulating a cinema ticket sales system developed in Java using Servlets and multi-threading.  
 The application manages ticket purchases through a client-server architecture with a graphical interface and thread-based concurrency.
 
 ![Cinema Project Screenshot](./img/kinepolis.jpg)
